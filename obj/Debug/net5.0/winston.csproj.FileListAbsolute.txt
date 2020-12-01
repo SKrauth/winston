@@ -1,0 +1,15 @@
+/Users/sean/Projects/winston/bin/Debug/net5.0/winston.deps.json
+/Users/sean/Projects/winston/bin/Debug/net5.0/winston.runtimeconfig.json
+/Users/sean/Projects/winston/bin/Debug/net5.0/winston.runtimeconfig.dev.json
+/Users/sean/Projects/winston/bin/Debug/net5.0/winston.dll
+/Users/sean/Projects/winston/bin/Debug/net5.0/ref/winston.dll
+/Users/sean/Projects/winston/bin/Debug/net5.0/winston.pdb
+/Users/sean/Projects/winston/obj/Debug/net5.0/winston.csprojAssemblyReference.cache
+/Users/sean/Projects/winston/obj/Debug/net5.0/winston.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sean/Projects/winston/obj/Debug/net5.0/winston.AssemblyInfoInputs.cache
+/Users/sean/Projects/winston/obj/Debug/net5.0/winston.AssemblyInfo.cs
+/Users/sean/Projects/winston/obj/Debug/net5.0/winston.csproj.CoreCompileInputs.cache
+/Users/sean/Projects/winston/obj/Debug/net5.0/winston.dll
+/Users/sean/Projects/winston/obj/Debug/net5.0/ref/winston.dll
+/Users/sean/Projects/winston/obj/Debug/net5.0/winston.pdb
+/Users/sean/Projects/winston/obj/Debug/net5.0/winston.genruntimeconfig.cache
