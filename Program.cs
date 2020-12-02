@@ -17,6 +17,56 @@ namespace winston
                 Console.WriteLine("Making Coffee");
                 Coffee.Make();
             }
+
+            if(args[0] == "ticTacToe"){
+                TicTacToe.Start();
+            }
+        }
+    }
+
+    static class TicTacToe 
+    {
+        static char[,] board = {{'\0', '\0', '\0'}, 
+                                {'\0', '\0', '\0'}, 
+                                {'\0', '\0', '\0'}};
+        static char player;
+        static int turn = 0;
+
+        public static void Start(){
+            player = DateTime.Now.Millisecond % 2 == 0 ? 'X' : 'O';
+
+            Console.WriteLine("Lets play tic tac toe. You are playing {0} and will go {1}.", player, player == 'X' ? "first" : "second");
+            while(!GameOver()){
+                DisplayBoard();
+                Console.ReadLine();
+            }
+            
+        }
+
+        public static void DisplayBoard(){
+            for (int i = 0; i < board.GetLength(0); i++)
+            {
+                for (int j = 0; j < board.GetLength(1); j++)
+                {
+                    Console.Write("{0} {1} ", j == 0 ? "" : "|", board[i, j]);
+                }
+                Console.WriteLine();
+                if(i != board.GetLength(0) - 1){
+                    Console.WriteLine("---------");
+                } else {
+                    Console.WriteLine();
+                }
+                
+            }
+        }
+
+        static void Move(char player, string location){
+            turn++;
+        }
+
+        static bool GameOver(){
+            turn++;
+            return turn < 9 ? false : true;
         }
     }
 
