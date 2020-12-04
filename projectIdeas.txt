@@ -1,0 +1,19 @@
+// This is a very loose format place to brainstorm ideas for future winston features
+
+-- Email Automations
+create an inbox for winston where he can
+    - read emails to the cmd line
+    - respond to recruiter contacts with:
+        - interested or not
+        - resume
+        - phone call scheduling?
+        - link to winston's github
+    - send thank you emails, cron job after a scheduled meeting?
+    - respond to scheduling requests
+
+-- Job postings
+scrape job boards for relevant postings
+    - automate application process?
+    - linkedIn, builtInSeattle, other?
+
+
