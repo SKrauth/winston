@@ -12,13 +12,12 @@ namespace winston
                 return;
             }
             
-            // TODO: better input val and multi arg support
-            if(args[0] == "coffee"){
+            if(Array.Exists(args, arg => arg == "coffee")){
                 Console.WriteLine("Making Coffee");
                 Coffee.Make();
             }
 
-            if(args[0] == "ticTacToe"){
+            if(Array.Exists(args, arg => arg == "ticTacToe")){
                 TicTacToe game = new TicTacToe();
                 game.Start();
             }
